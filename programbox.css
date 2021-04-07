@@ -1,0 +1,45 @@
+.tf_prg { background:#fff; margin:10px 14px 30px 10px ; box-shadow:1px 1px 1px #999; border-bottom:4px solid #FFFFA9; }
+.tf_prg a { text-decoration:none; }
+.tf_prg a:hover { text-decoration:underline; }
+.tf_prg-head { height:40px; padding:2px 10px 2px 10px;text-align:left; background:url(files/images/re-30-black.png); line-height:40px; background-size:cover; display:block; }       
+.tf_prg-head-left {position:absolute; z-index:1 !important; height:21px; line-height:26px; float:left; width:600px; text-align:left; font-size:15px; overflow:hidden; padding:10px 0px 10px 0px;}
+.tf_prg-head-right {width:816px; position:absolute; text-align:right;}
+.tf_prg-head-right a { width:40px; display:inline-block; font-size:12px; height:35px; line-height:26px; text-align:center; padding:2px 0px 3px 0px;}
+.tf_prg-head-right a:hover { text-decoration:none; background:#FFF}
+.tf_prg-head-right a span { padding:0px; margin:0px; display:block;  }
+
+.tf_prg-header { background:#EEE; display:block; border-bottom:1px solid #CCC; border-top:1px solid #999;}
+.tf_prg-header > div {  float:left; border-left:1px solid #EEE; border-right:1px solid #CCC; line-height:30px; font-size:17px; display:block; }
+.tf_prg-header > div:last-child { clear:both; float:none; border:none; }
+.tf_prg-header-num { width:40px; text-align:center; border-left:none !important; }
+.tf_prg-header-left { width:200px; text-align:left; padding-left:10px;   }
+.tf_prg-header-title {   padding-left:10px;height:30px; overflow:hidden; width:400px; padding-right:10px; }
+.tf_prg-header-user { border-right:none !important;  padding-left:10px; height:25px; overflow:hidden; width:120px;  }
+
+
+.tf_prg-body {padding:0px 0px 0px 0px; max-height:136px; display:block; }
+.tf_prg-body-row { background:#F6F6F6; display:block; border-bottom:1px solid #DDD; border-top:1px solid #FFF;}
+.tf_prg-body-row > div { float:left; border-left:1px solid #FFF; border-right:1px solid #DDD; line-height:25px; font-size:15px; display:block; }
+.tf_prg-body-row > div:last-child { clear:both; float:none; border:none; }
+.tf_prg-body-row-num { width:40px; text-align:center; border-left:none !important;height:25px;}
+.tf_prg-body-row-left {width:200px; min-width:200px; text-align:left; padding-left:10px; min-height:25px; cursor:default; font-weight:bold}
+.tf_prg-body-row-left-remain { position:absolute; display:block;}
+.tf_prg-body-row-left-remain span { display:none; padding-right:4px;}
+.tf_prg-body-row-left-remain .year {color:#FFBB00 !important; display:none;  display:none;}
+.tf_prg-body-row-left-remain .yeart {color:#FFBB00 !important; display:none; display:none;}
+.tf_prg-body-row-left-remain .month {color:#FFBB00 !important; display:none;  display:none;}
+.tf_prg-body-row-left-remain .montht {color:#FFBB00 !important; display:none;  display:none;}
+.tf_prg-body-row-left-remain .day {color:#FF5400 !important; display:none; display:none;}
+.tf_prg-body-row-left-remain .dayt {color:#FF5400 !important; display:none; display:none;}
+.tf_prg-body-row-left-remain .hour {color:#FF5400 !important; display:none; display:none;}
+.tf_prg-body-row-left-remain .hourt {color:#FF5400 !important; display:none; display:none;}
+.tf_prg-body-row-left-remain .minute {color:#FF0000 !important; display:none;display:none;}
+.tf_prg-body-row-left-remain .minutet {color:#FF0000 !important; display:none; display:none;}
+.tf_prg-body-row-left-remain .second {color:#FF0000 !important; display:none; display:none;}
+.tf_prg-body-row-left-remain .secondt { color:#FF0000 !important; display:none; display:none;}
+.tf_prg-body-row-left-expire { position:absolute; display:none; }
+.tf_prg-body-row-title { padding-left:10px;height:25px; overflow:hidden; width:400px; padding-right:10px;}
+.tf_prg-body-row-user {border-right:none !important;  padding-left:10px; height:25px; overflow:hidden; width:120px;}
+
+.tf_prg-foot {height:21px; padding:5px 10px 5px 10px; font-size:14px; text-align:left; background:url(files/images/re-30-black-r.png); background-size:cover; border-top:1px solid #999;}
+.tf_prg-foot-right { float:right; }

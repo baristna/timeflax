@@ -1,0 +1,19 @@
+.tf_user { background:#F6F6F6; margin:10px 10px 10px 10px; width:826px; padding:5px 5px 5px 5px;  box-shadow:1px 1px 1px #999; }
+.tf_user-imagebox { float:left; padding:0px 10px 0px 0px; height:80px;}
+.tf_user-imagebox img { width:80px; height:80px; }
+.tf_user-name { float:left;  padding:0px 10px 0px 0px; border-right:1px solid #DDD; height:80px; width:350px; overflow:hidden; }
+.tf_user-name a { text-decoration:none; }
+.tf_user-name a:hover { text-decoration:underline; }
+.tf_user-name-top {font-size:30px; height:38px; overflow:hidden;}
+.tf_user-name-bottom {}
+.tf_user-detail {float:left; padding:0px 10px 0px 10px; border-left:1px solid #FFF; height:80px; vertical-align:middle; line-height:40px; font-size:20px;}
+.tf_user-followbox {float:right; }
+.tf_user-followbox a { text-decoration:none; box-shadow:1px 1px 4px #BBB; padding:10px 10px 10px 10px; display:block; }     
+        
+.tf_user-followbox .followed { background:url(files/images/grayblack2.png); background-size:contain; }
+.tf_user-followbox .followed:hover { background:url(files/images/grayblack3.png); background-size:contain; }
+
+.tf_user-followbox .notfollowed {  background:url(files/images/grayblack6.png); background-size:contain; display:block }
+.tf_user-followbox .notfollowed:hover { background:url(files/images/grayblack7.png); background-size:contain; }
+
+.tf_user-followbox a img { height:28px; padding:2px 10px 2px 10px; }

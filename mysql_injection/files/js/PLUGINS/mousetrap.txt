@@ -1,0 +1,23 @@
+// single keys
+Mousetrap.bind('4', function() { highlight(2); });
+Mousetrap.bind('x', function() { highlight(3); }, 'keyup');
+
+// combinations
+Mousetrap.bind('command+shift+k', function(e) {
+    highlight([6, 7, 8, 9]);
+    return false;
+});
+
+Mousetrap.bind(['command+k', 'ctrl+k'], function(e) {
+    highlight([11, 12, 13, 14]);
+    return false;
+});
+
+// gmail style sequences
+Mousetrap.bind('g i', function() { highlight(17); });
+Mousetrap.bind('* a', function() { highlight(18); });
+
+// konami code!
+Mousetrap.bind('up up down down left right left right b a enter', function() {
+    highlight([21, 22, 23]);
+});
